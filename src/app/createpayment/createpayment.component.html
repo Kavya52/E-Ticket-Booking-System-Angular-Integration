@@ -1,0 +1,18 @@
+<p>createpayment works!</p>
+<div>
+    <h1></h1>
+    <form>
+     paymentId: <input type="text" name="paymentId" [(ngModel)]="payment.paymentId"><br>
+     paymentMode: <input type="text" name="paymentMode"  [(ngModel)]="payment.paymentMode"><br>
+     paymentDate: <input type="text" name="paymentDate"  [(ngModel)]="payment.paymentDate"><br>
+     customerId: <input type="text" name="customerId"  [(ngModel)]="payment.customer.customerId"><br>
+     bookingId: <input type="text" name="bookingId"  [(ngModel)]="payment.booking.bookingId"><br>
+
+     
+     <input type="button" value="submit" (click)="createPayment()">
+  
+    </form>
+
+    {{msg}}
+
+    </div>

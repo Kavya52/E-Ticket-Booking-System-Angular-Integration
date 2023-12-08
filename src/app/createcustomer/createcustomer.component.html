@@ -1,0 +1,19 @@
+<p>createcustomer works!</p>
+<div>
+    <h1></h1>
+    <form>
+     customerId: <input type="text" name="customerId" [(ngModel)]="customer.customerId"><br>
+     customerName: <input type="text" name="customerName"  [(ngModel)]="customer.customerName"><br>
+     email: <input type="text" name="email"  [(ngModel)]="customer.email"><br>
+     customerAddress: <input type="text" name="customerAddress"  [(ngModel)]="customer.customerAddress"><br>
+     phoneNumber: <input type="text" name="phoneNumber"  [(ngModel)]="customer.phoneNumber"><br>
+     
+     
+     
+     <input type="button" value="submit" (click)="createCustomer()"><br>
+  
+    </form>
+
+    {{msg}}
+
+    </div>

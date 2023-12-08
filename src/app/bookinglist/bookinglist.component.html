@@ -1,0 +1,24 @@
+<p>bookinglist works!</p>
+<div>
+    <table border="5">
+        <thead>
+          <tr>
+            <th>bookingId</th>
+            <th>customerId</th>
+            <th>eventId</th>
+            <th>bookingDate</th>
+            <th>ticketsCount</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let booking of bookings ">
+            <td>{{booking.bookingId}}</td>
+            <td>{{booking.customer.customerId}}</td>
+            <td>{{booking.event.eventId}}</td>
+            <td>{{booking.bookingDate}}</td>
+            <td>{{booking.ticketsCount}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>

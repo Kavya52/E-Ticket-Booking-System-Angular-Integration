@@ -1,0 +1,32 @@
+<p>eventlist works!</p>
+<div>
+    <table border="5">
+        <thead>
+          <tr>
+            <th>eventId</th>
+            <th>eventName</th>
+            <th>eventDate</th>
+            <th>eventLocation</th>
+            <th>eventTime</th>
+            <th>ticketPrice</th>
+            
+
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let event of events ">
+            <td>{{event.eventId}}</td>
+            <td>{{event.eventName}}</td>
+            <td>{{event.eventDate}}</td>
+            <td>{{event.eventLocation}}</td>
+            <td>{{event.eventTime}}</td>
+            <td>{{event.ticketPrice}}</td>
+            
+    
+    
+          </tr>
+        </tbody>
+      </table>
+    </div>
+

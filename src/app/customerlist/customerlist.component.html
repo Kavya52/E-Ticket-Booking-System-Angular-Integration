@@ -1,0 +1,28 @@
+<p>customerlist works!</p>
+<div>
+    <table border="5">
+        <thead>
+          <tr> 
+            <th>customerId</th>
+            <th>customerName</th>
+            <th>email</th>
+            <th>customerAddress</th>
+            <th>phoneNumber</th>
+            
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let customer of customers ">
+            <td>{{customer.customerId}}</td>
+            <td>{{customer.customerName}}</td>
+            <td>{{customer.email}}</td>
+            <td>{{customer.customerAddress}}</td>
+            <td>{{customer.phoneNumber}}</td>
+            
+    
+    
+          </tr>
+        </tbody>
+      </table>
+    </div>

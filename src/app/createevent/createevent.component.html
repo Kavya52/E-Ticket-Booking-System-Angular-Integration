@@ -1,0 +1,18 @@
+<p>createevent works!</p>
+<div>
+    <h1></h1>
+    <form>
+     eventId: <input type="text" name="eventId" [(ngModel)]="event.eventId"><br>
+     eventName: <input type="text" name="eventName"  [(ngModel)]="event.eventName"><br>
+     eventDate: <input type="text" name="eventDate"  [(ngModel)]="event.eventDate"><br>
+     eventLocation: <input type="text" name="eventLocation"  [(ngModel)]="event.eventLocation"><br>
+     eventTime: <input type="text" name="eventTime"  [(ngModel)]="event.eventTime"><br>
+     ticketPrice: <input type="text" name="ticketPrice"  [(ngModel)]="event.ticketPrice"><br>
+     
+     <input type="button" value="submit" (click)="createEvent()">
+  
+    </form>
+
+    {{msg}}
+
+    </div>

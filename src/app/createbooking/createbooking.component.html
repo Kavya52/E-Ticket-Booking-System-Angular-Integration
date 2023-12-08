@@ -1,0 +1,18 @@
+<p>createbooking works!</p>
+<div>
+    <h1></h1>
+    <form>
+     bookingId: <input type="text" name="bookingId" [(ngModel)]="booking.bookingId"><br>
+     customerId: <input type="text" name="customerId"  [(ngModel)]="booking.customer.customerId"><br>
+     eventId: <input type="text" name="eventId"  [(ngModel)]="booking.event.eventId"><br>
+     bookingDate: <input type="text" name="bookingDate"  [(ngModel)]="booking.bookingDate"><br>
+     ticketsCount: <input type="text" name="ticketsCount"  [(ngModel)]="booking.ticketsCount"><br>
+
+     
+     <input type="button" value="submit" (click)="createBooking()">
+  
+    </form>
+
+    {{msg}}
+
+    </div>

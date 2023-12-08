@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.head {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+}
+
+.head img {
+    width: 300px;
+    height: 110px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px groove rgb(236, 240, 229);
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.HomeSection {
+    margin-top: 20px;
+}
+
+.info-section {
+    text-align: justify;
+    color: rgb(255, 252, 252);
+    background-color: rgb(29, 90, 131);
+    padding: 20px;
+    border: 2px groove #202020;
+}
+
+.customer,
+.Event,
+.Payment,
+.booking {
+    background-color: rgb(29, 131, 131);
+    border: 2px groove black;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.customer h3,
+.Event h3,
+.Payment h3,
+.booking h3 {
+    color: #fff;
+}
+
+.customer ul,
+.Event ul,
+.Payment ul,
+.booking ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.customer li,
+.Event li,
+.Payment li,
+.booking li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer {
+    background-color:darkolivegreen;
+    color: white;
+    text-align: center;
+    padding:0%;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}

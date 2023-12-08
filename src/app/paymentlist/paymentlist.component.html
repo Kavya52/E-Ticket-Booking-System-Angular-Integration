@@ -1,0 +1,27 @@
+<p>paymentlist works!</p>
+<div>
+    <table border="5">
+        <thead>
+          <tr>
+            <th>paymentId</th>
+            <th>paymentMode</th>
+            <th>paymentDate</th>
+            <th>customerId</th>
+            <th>bookingId</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let payment of payments ">
+            <td>{{payment.paymentId}}</td>
+            <td>{{payment.paymentMode}}</td>
+            <td>{{payment.paymentDate}}</td>
+            <td>{{payment.customer.customerId}}</td>
+            <td>{{payment.booking.bookingId}}</td>
+            
+    
+    
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
